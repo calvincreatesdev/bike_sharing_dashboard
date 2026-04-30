@@ -1,3 +1,26 @@
+## 1. Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.12.2
+conda activate main-ds
+pip install -r requirements.txt
+```
+
+## 2. Setup Environment - Shell/Terminal
+```
+mkdir proyek_analisis_data
+cd proyek_analisis_data
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+
+## 3. Run Streamlit App
+```
+streamlit run dashboard/dashboard.py
+```
+
+
+
 ## 📌 Project Overview
 Proyek ini merupakan **Data Analytics Dashboard** interaktif yang dibangun menggunakan **Streamlit** untuk menganalisis dataset *Bike Sharing*.
 Tujuan utama dari proyek ini adalah menggali *business insights* dari pola perilaku pengguna (komuter vs kasual) dan memahami bagaimana faktor eksternal (cuaca, musim, suhu, kecepatan angin) memengaruhi tingkat konversi penyewaan sepeda harian.
